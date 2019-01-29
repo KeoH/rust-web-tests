@@ -1,0 +1,8 @@
+[package]
+name = "variables"
+version = "0.1.0"
+authors = ["Francisco Manzano <fmanzano@qdqmedia.com>"]
+edition = "2018"
+
+[dependencies]
+iron = "0.6.0"
