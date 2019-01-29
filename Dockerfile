@@ -1,13 +1,11 @@
 FROM rust:1.32.0-slim-stretch
 
-WORKDIR /usr/src/variables
+WORKDIR /usr/src/myweb
 
 COPY . .
 
-RUN rustup default nightly && rustup update && cargo update
-
 RUN cargo install --path .
 
-EXPOSE 8000
+EXPOSE 3000
 
-CMD ["variables"]
+CMD ["myweb"]
