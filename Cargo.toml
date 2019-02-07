@@ -5,10 +5,8 @@ authors = ["Francisco Manzano <keoh77@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-iron = "0.6.0"
-router = "0.6.0"
-time = "*"
-
-[dependencies.logger]
-
-git = "https://github.com/iron/logger.git"
+rocket = "0.4.0"
+rocket_contrib = "0.4.0"
+serde_derive = "1.0.87"
+serde = "1.0.87"
+serde_json = "1.0.38"
